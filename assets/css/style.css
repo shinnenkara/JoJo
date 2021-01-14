@@ -1079,6 +1079,10 @@ section .container {
   overflow-y: auto;
 }
 
+.anime-details .row {
+  padding-bottom: 40px;
+}
+
 .anime-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
@@ -1087,7 +1091,12 @@ section .container {
 .anime-details .anime-title {
   font-size: 26px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: #18d26e;
+}
+
+.anime-details .anime-video {
+  margin-bottom: 10px;
 }
 
 .anime-details .anime-details-carousel .owl-nav, .anime-details .anime-details-carousel .owl-dots {
